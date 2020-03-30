@@ -10,11 +10,14 @@ body {
     font-family: var(--font-montserrat);
 }
 
+/* Navbar */
 .navbar {
     border-bottom: #008ed6 3px solid;
     opacity: 0.8;
 }
+/* End Navbar */
 
+/* Home Section */
 #home-section {
     background: url(../img/home.jpg);
     background-repeat: no-repeat;
@@ -55,3 +58,14 @@ body {
 #home-section .card-form .form-group input{
     font-size: 16px;
 }
+/* End Home Section */
+
+/* Explore & Share Section */
+#explore-section .fas, 
+#share-section .fas {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* End Explore & Share Section */
