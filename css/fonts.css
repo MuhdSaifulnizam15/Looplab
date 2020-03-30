@@ -1,6 +1,31 @@
-/* @font-face */
+/* Font-Face */
 
 @font-face {
     font-family: 'Roboto';
-    src: '../fonts/Roboto/Roboto-Regular.ttf';
+    src: '../assets/fonts/Roboto/Roboto-Regular.ttf';
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: '../assets/fonts/Abel/Abel-Regular.ttf';
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: '../assets/fonts/Lexend_Deca/LexendDeca-Regular.ttf';
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: '../assets/fonts/Montserrat/Montserrat-Regular.ttf';
+}
+
+@font-face {
+    font-family: 'Archivo_Narrow';
+    src: '../assets/fonts/Archivo_Narrow/ArchivoNarrow-Regular.ttf';
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: '../assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf';
 }
