@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
         <div class="container">
             <a href="index.html" class="navbar-brand">LoopLAB</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -117,7 +117,8 @@
         </div>
     </section>
     <!-- End Explore Head Section -->
-    <!-- Explore Head Section -->
+
+    <!-- Explore Section -->
     <section id="explore-section" class="bg-light text-muted py-5">
         <div class="container">
             <div class="row">
@@ -152,6 +153,154 @@
     </section>
     <!-- End Explore Section -->
     
+    <!-- Create Head Section -->
+    <section id="create-head-section" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Create</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaerat veritatis maiores, obcaecati alias deserunt dicta reprehenderit. Dolore, quo iusto.</p>
+                    <a href="#" class="btn btn-outline-dark text-white">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Explore Head Section -->
+    
+    <!-- Create Section -->
+    <section id="create-section" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-2">
+                    <img src="./img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6 order-1">
+                    <h3>Create Your Passion</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aperiam reprehenderit aut, magni, labore laudantium molestias dolore placeat pariatur consequuntur dolorum! Temporibus ex suscipit eligendi?
+                    </p>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                    
+                        </div>
+                        <div class="p-4 align-self-end">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, nesciunt consequatur ducimus suscipit aliquam autem?</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                    
+                        </div>
+                        <div class="p-4 align-self-end">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, nesciunt consequatur ducimus suscipit aliquam autem?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Explore Section -->
+
+    <!-- Share Head Section -->
+    <section id="share-head-section" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Share</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaerat veritatis maiores, obcaecati alias deserunt dicta reprehenderit. Dolore, quo iusto.</p>
+                    <a href="#" class="btn btn-outline-dark text-white">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Share Head Section -->
+
+    <!-- Share Section -->
+    <section id="explore-section" class="bg-light text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h3>Share What You Create</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aperiam reprehenderit aut, magni, labore laudantium molestias dolore placeat pariatur consequuntur dolorum! Temporibus ex suscipit eligendi?
+                    </p>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                    
+                        </div>
+                        <div class="p-4 align-self-end">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, nesciunt consequatur ducimus suscipit aliquam autem?</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                    
+                        </div>
+                        <div class="p-4 align-self-end">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, nesciunt consequatur ducimus suscipit aliquam autem?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Share Section -->
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-4">
+                    <h3>LoopLAB</h3>
+                    <p>Copyright &copy; 
+                        <span id="year"></span> 
+                    </p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div class="modal fade text-dark" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Us</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-block">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Modal -->
+    <!-- End Footer -->
+
     <!-- JQuery JS File -->
     <script src="./js/jquery-3.4.1.min.js"></script>
 

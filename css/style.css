@@ -48,7 +48,8 @@ body {
     opacity: 0.8;
 }
 
-#home-section .fas {
+#home-section .fas,
+#create-section .fas {
     color: #008ed6;
     background: white;
     padding: 5px;
@@ -69,3 +70,6 @@ body {
     border-radius: 5px;
 }
 /* End Explore & Share Section */
+
+/*  */
+
